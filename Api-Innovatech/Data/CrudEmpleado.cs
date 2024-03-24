@@ -41,12 +41,32 @@ namespace Api_Innovatech.Data
         }
 
 
-
-        /*public Task<bool> ActualizarEmpleado(Empleado empleado)
+        public async Task<bool> ActualizarEmpleado(Empleado empleado)
         {
-            throw new NotImplementedException();
+            var bd = Conectar();
+            String cad_sql = @"update Empleados set 
+                            DNI = @dni,
+                            Nombre = @name,
+                            Direccion = @direc,
+                            Telefono = @tel,
+                            Email = @mail,
+                            Sueldo = @sueldo,
+                            Estado_civil = @estado";
+            int n = await bd.ExecuteAsync(cad_sql,
+                new{
+                        dni = empleado.DNI,
+                        name = empleado.Nombre,
+                        direc = empleado.Direccion,
+                        tel = empleado.Telefono,
+                        mail = empleado.Email,
+                        sueldo = empleado.Sueldo,
+                        estado = empleado.Estado_civil,
+
+                    });
+                            return n > 0;
         }
 
+        
         public async Task<bool> EliminarEmpleado(string codigo)
         {
             var bd = Conectar();
@@ -57,9 +77,32 @@ namespace Api_Innovatech.Data
             return n > 0;
         }
 
-        public Task<bool> RegistrarEmpleado(Empleado empleado)
+        
+        public async Task<bool> RegistrarEmpleado(Empleado empleado)
         {
-            throw new NotImplementedException();
-        }*/
+            var bd = Conectar();
+            String cad_sql = @"insert into Empleados values 
+                             (@dni,
+                              @name,
+                              @direc,
+                              @tel,
+                              @mail,
+                              @sueldo,
+                              @estado )";
+
+            int n = await bd.ExecuteAsync(cad_sql, 
+                new {
+                dni = empleado.DNI,
+                name = empleado.Nombre,
+                direc = empleado.Direccion,
+                tel = empleado.Telefono,
+                mail = empleado.Email,
+                sueldo = empleado.Sueldo,
+                estado = empleado.Estado_civil,
+            });
+
+            return n > 0;
+
+        }
     }
 }
