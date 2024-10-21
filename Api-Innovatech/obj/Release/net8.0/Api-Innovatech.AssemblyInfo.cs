@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api-Innovatech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af439b86ed3c4e384158797831330e04b894e379")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api-Innovatech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api-Innovatech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

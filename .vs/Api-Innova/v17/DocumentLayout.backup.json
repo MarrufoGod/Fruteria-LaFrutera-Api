@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Data\\CrudEmpleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Data\\CrudEmpleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Api-Innovatech.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Controllers\\EmpleadoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Controllers\\EmpleadoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Data\\Configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Data\\Configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Model\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Model\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Api-Innovatech\\Api-Innovatech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Api-Innovatech\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T15:03:16.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\appsettings.json",
+              "RelativeDocumentMoniker": "Api-Innovatech\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\appsettings.json",
+              "RelativeToolTip": "Api-Innovatech\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T15:02:33.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Program.cs",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Program.cs",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Program.cs",
+              "RelativeToolTip": "Api-Innovatech\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T15:01:01.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Api-Innovatech.csproj.user",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj.user",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Api-Innovatech.csproj.user",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj.user",
+              "RelativeToolTip": "Api-Innovatech\\Api-Innovatech.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-19T14:58:50.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "Api-Innovatech\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:56:55.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrudEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Data\\CrudEmpleado.cs",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Data\\CrudEmpleado.cs",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Data\\CrudEmpleado.cs",
+              "RelativeToolTip": "Api-Innovatech\\Data\\CrudEmpleado.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:56:29.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Data\\Configuracion.cs",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Data\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Data\\Configuracion.cs",
+              "RelativeToolTip": "Api-Innovatech\\Data\\Configuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:56:26.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Model\\Empleado.cs",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Model\\Empleado.cs",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Model\\Empleado.cs",
+              "RelativeToolTip": "Api-Innovatech\\Model\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:55:58.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Api-Innovatech.csproj",
+              "DocumentMoniker": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
+              "RelativeDocumentMoniker": "Api-Innovatech\\Api-Innovatech.csproj",
+              "ToolTip": "C:\\Users\\pc1\\source\\repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
+              "RelativeToolTip": "Api-Innovatech\\Api-Innovatech.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-19T14:55:52.354Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

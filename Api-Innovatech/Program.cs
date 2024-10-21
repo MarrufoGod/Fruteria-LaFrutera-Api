@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 var Configuracion = new Configuracion(builder.Configuration.GetConnectionString("innovatech_500"));
 builder.Services.AddSingleton(Configuracion);
 
-builder.Services.AddScoped<IEmpleado, CrudEmpleado>();
+builder.Services.AddScoped<IProducto, CrudProducto>();
 
 
 var app = builder.Build();

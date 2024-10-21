@@ -2252,11 +2252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Api\\Api-Innovatech\\Api-Innovatech\\Api-Innovatech.csproj",
+      "projectUniqueName": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
       "projectName": "Api-Innovatech",
-      "projectPath": "D:\\Api\\Api-Innovatech\\Api-Innovatech\\Api-Innovatech.csproj",
+      "projectPath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
       "packagesPath": "C:\\Users\\pc1\\.nuget\\packages\\",
-      "outputPath": "D:\\Api\\Api-Innovatech\\Api-Innovatech\\obj\\",
+      "outputPath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2267,6 +2267,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2322,7 +2323,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

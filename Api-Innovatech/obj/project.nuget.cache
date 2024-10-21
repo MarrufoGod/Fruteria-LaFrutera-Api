@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AKXxp3E+9ncpG4DjIiTjuvmw1bXt8daOzZoRvY8KYDGm4FJfct4gzWaslIB9QFW+TjU/3VwjKQJO4fWJGdSRcQ==",
+  "dgSpecHash": "i8K07JepY6U=",
   "success": true,
-  "projectFilePath": "D:\\Api\\Api-Innovatech\\Api-Innovatech\\Api-Innovatech.csproj",
+  "projectFilePath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc1\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\pc1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
