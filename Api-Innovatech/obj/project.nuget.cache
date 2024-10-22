@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i8K07JepY6U=",
+  "dgSpecHash": "6cLr/lAPSEk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
+  "projectFilePath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Fruteria-LaFrutera-Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc1\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\pc1\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",

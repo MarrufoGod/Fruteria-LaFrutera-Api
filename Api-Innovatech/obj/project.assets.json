@@ -2252,9 +2252,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
-      "projectName": "Api-Innovatech",
-      "projectPath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Api-Innovatech.csproj",
+      "projectUniqueName": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Fruteria-LaFrutera-Api.csproj",
+      "projectName": "Fruteria-LaFrutera-Api",
+      "projectPath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\Fruteria-LaFrutera-Api.csproj",
       "packagesPath": "C:\\Users\\pc1\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pc1\\Source\\Repos\\MarrufoGod\\Api-Innova\\Api-Innovatech\\obj\\",
       "projectStyle": "PackageReference",
