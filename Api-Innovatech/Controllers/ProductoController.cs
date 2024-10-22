@@ -8,17 +8,17 @@ namespace Api_Innovatech.Controllers
     [ApiController]
     public class ProductoController : Controller
     {
-        private IProducto _empleado;
+        private IProducto _producto;
 
         public ProductoController(IProducto empleado)
         {
-            _empleado = empleado;
+            _producto = empleado;
         }
 
         //Lista
         [HttpGet]
         public async Task<IActionResult> ListarProducto() {
-            return Ok(await _empleado.ListarProducto());
+            return Ok(await _producto.ListarProducto());
         }
        
         //INFO
@@ -26,7 +26,7 @@ namespace Api_Innovatech.Controllers
 
         public async Task<IActionResult> MostarProducto(int codigo)
         {
-            return Ok(await _empleado.MostarProducto(codigo));
+            return Ok(await _producto.MostarProducto(codigo));
         }
         
        // Registrar
@@ -38,7 +38,7 @@ namespace Api_Innovatech.Controllers
                return BadRequest();
            if (!ModelState.IsValid)
                return BadRequest(ModelState);
-           var registro = await _empleado.RegistrarProducto(empleado);
+           var registro = await _producto.RegistrarProducto(empleado);
            return Created("Producto registrado...", registro);
        }
         [HttpPut]
@@ -49,7 +49,7 @@ namespace Api_Innovatech.Controllers
                 return BadRequest();
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-            var registro = await _empleado.ActualizarProducto(empleado);
+            var registro = await _producto.ActualizarProducto(empleado);
             return Created("Producto Actualizado...", registro);
         }
         
@@ -59,7 +59,7 @@ namespace Api_Innovatech.Controllers
 
         public async Task<IActionResult> EliminarProducto(String codigo)
         {
-            var registro = await _empleado.EliminarProducto(codigo);
+            var registro = await _producto.EliminarProducto(codigo);
             return Created("Producto Eliminado ...", registro);
         }
 

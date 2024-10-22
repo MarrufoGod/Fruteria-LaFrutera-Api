@@ -27,7 +27,7 @@ namespace Api_Innovatech.Data
         public async Task<IEnumerable<productos>> ListarProducto()
         {
             var bd = Conectar();
-            String cad_sql = @"sp_ListarProductos";
+            String cad_sql = @"SELECT * FROM productos;";
 
             return await bd.QueryAsync<productos>(cad_sql, new { });
         }

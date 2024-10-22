@@ -9,5 +9,6 @@
         public int cantidad { get; set; }
         public string origen { get; set; }
         public string descripcion { get; set; }
+        public int proveedor_id { get; set; }
     }
 }
