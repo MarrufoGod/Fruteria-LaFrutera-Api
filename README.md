@@ -53,5 +53,63 @@ SELECT * FROM productos;
 -- Verificar el contenido de la tabla proveedores
 SELECT * FROM proveedores;
 
+-- Tabla usuarios
+CREATE TABLE IF NOT EXISTS usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    pass VARCHAR(150)
+);
+
+-- hash 
+DELIMITER //
+
+CREATE PROCEDURE registrar_usuario(
+    IN p_nombre VARCHAR(100),
+    IN p_pass VARCHAR(150)
+)
+BEGIN
+    -- Hashear la contraseña usando SHA2 con 256 bits
+    DECLARE hashed_pass VARCHAR(150);
+    SET hashed_pass = SHA2(p_pass, 256);
+    
+    -- Insertar el nuevo usuario en la tabla
+    INSERT INTO usuario (nombre, pass) 
+    VALUES (p_nombre, hashed_pass);
+END //
+
+DELIMITER ;
+
+CALL registrar_usuario('Marrufo', '123456789');
+select * from usuario;
+-- Login 
+DELIMITER //
+
+CREATE PROCEDURE verificar_usuario(
+    IN p_nombre VARCHAR(100),
+    IN p_pass VARCHAR(150),
+    OUT resultado BOOLEAN
+)
+BEGIN
+    -- Declarar la variable para almacenar la contraseña hasheada
+    DECLARE stored_pass VARCHAR(150);
+    
+    -- Intentar obtener la contraseña hasheada almacenada
+    SELECT pass INTO stored_pass 
+    FROM usuario 
+    WHERE nombre = p_nombre;
+    
+    -- Comparar la contraseña ingresada (hasheada) con la almacenada
+    IF stored_pass = SHA2(p_pass, 256) THEN
+        SET resultado = TRUE;  -- Credenciales correctas
+    ELSE
+        SET resultado = FALSE; -- Credenciales incorrectas
+    END IF;
+    
+END //
+
+DELIMITER ;
+
+CALL verificar_usuario('Marrufo', '123456789', @resultado);
+SELECT @resultado;
 
 ...Cambiar la Conexion en Appsettings.json...
