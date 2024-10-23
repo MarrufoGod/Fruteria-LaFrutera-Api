@@ -7,6 +7,26 @@ namespace Api_Innovatech.Controllers
     [ApiController]
     public class UsuarioController : Controller
     {
+        private IUsuario _usuario;
+
+        public UsuarioController(IUsuario usuario)
+        {
+            _usuario = usuario;
+        }
+
+        //Lista
+        [HttpGet]
+        public async Task<IActionResult> ListarUsuario()
+        {
+            return Ok(await _usuario.ListarUsuario());
+        }
+        //INFO
+        [HttpGet("{codigo}")]
+
+        public async Task<IActionResult> MostarUsuario(int codigo)
+        {
+            return Ok(await _usuario.MostarUsuario(codigo));
+        }
 
     }
 }

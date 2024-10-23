@@ -18,7 +18,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "empleado",
+        "Name": "nombre",
         "Type": "Api_Innovatech.Model.productos",
         "IsRequired": true
       }
@@ -61,6 +61,106 @@
     "ContainingType": "Api_Innovatech.Controllers.ProductoController",
     "Method": "MostarProducto",
     "RelativePath": "api/Producto/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.ProveedorController",
+    "Method": "ListarProveedor",
+    "RelativePath": "api/Proveedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.ProveedorController",
+    "Method": "RegistrarProveedor",
+    "RelativePath": "api/Proveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedor",
+        "Type": "Api_Innovatech.Model.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.ProveedorController",
+    "Method": "ActualizarProveedor",
+    "RelativePath": "api/Proveedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proveedor",
+        "Type": "Api_Innovatech.Model.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.ProveedorController",
+    "Method": "MostrarProveedor",
+    "RelativePath": "api/Proveedor/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.ProveedorController",
+    "Method": "EliminarProveedor",
+    "RelativePath": "api/Proveedor/{codigo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.UsuarioController",
+    "Method": "ListarUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.UsuarioController",
+    "Method": "MostarUsuario",
+    "RelativePath": "api/Usuario/{codigo}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -15,6 +15,7 @@ builder.Services.AddSingleton(Configuracion);
 // Registro de servicios
 builder.Services.AddScoped<IProducto, CrudProducto>();
 builder.Services.AddScoped<IProveedor, CrudProveedor>(); // Agrega esta línea
+builder.Services.AddScoped<IUsuario, CrudUsuario>(); // Agrega esta línea
 
 var app = builder.Build();
 

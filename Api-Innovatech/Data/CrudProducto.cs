@@ -7,8 +7,6 @@ using MySql.Data.MySqlClient;
 namespace Api_Innovatech.Data
 {
     public class CrudProducto : IProducto
-
-
     {
 
         private Configuracion _conexion;
@@ -58,54 +56,52 @@ namespace Api_Innovatech.Data
         public async Task<bool> RegistrarProducto(productos data)
         {
             var bd = Conectar();
-            String cad_sql = @"insert into productos values 
-                             (@dni,
-                              @name,
-                              @direc,
-                              @tel,
-                              @mail,
-                              @sueldo,
-                              @estado )";
+            String cad_sql = @"INSERT INTO productos (nombre, categoria, precio, cantidad, origen, descripcion, proveedor_id) 
+                      VALUES 
+                      (@name, @direc, @tel, @mail, @sueldo, @estado, @proveedorId)";
 
             int n = await bd.ExecuteAsync(cad_sql,
                 new
                 {
-                    dni = data.id,
                     name = data.nombre,
                     direc = data.categoria,
                     tel = data.precio,
                     mail = data.cantidad,
                     sueldo = data.origen,
                     estado = data.descripcion,
+                    proveedorId = data.proveedor_id // Asegúrate de que esta propiedad esté presente en tu modelo
                 });
 
             return n > 0;
         }
 
-        public async Task<bool> ActualizarProducto(productos empleado)
+
+        public async Task<bool> ActualizarProducto(productos producto)
         {
             var bd = Conectar();
-            String cad_sql = @"update Empleados set 
-                            DNI = @dni,
-                            Nombre = @name,
-                            Direccion = @direc,
-                            Telefono = @tel,
-                            Email = @mail,
-                            Sueldo = @sueldo,
-                            Estado_civil = @estado";
+            String cad_sql = @"UPDATE productos SET 
+                        nombre = @name,
+                        categoria = @direc,
+                        precio = @tel,
+                        cantidad = @mail,
+                        origen = @sueldo,
+                        descripcion = @estado
+                        WHERE id = @id"; // Asegúrate de añadir esta línea
+
             int n = await bd.ExecuteAsync(cad_sql,
                 new
                 {
-                    dni = empleado.id,
-                    name = empleado.nombre,
-                    direc = empleado.categoria,
-                    tel = empleado.precio,
-                    mail = empleado.cantidad,
-                    sueldo = empleado.origen,
-                    estado = empleado.descripcion,
-
+                    id = producto.id, // Añade el id del producto
+                    name = producto.nombre,
+                    direc = producto.categoria,
+                    tel = producto.precio,
+                    mail = producto.cantidad,
+                    sueldo = producto.origen,
+                    estado = producto.descripcion,
                 });
-            return n > 0;
+
+            return n > 0; // Devuelve true si se actualizó al menos un registro
         }
+
     }
 }

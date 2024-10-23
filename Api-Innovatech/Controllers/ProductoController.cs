@@ -32,13 +32,13 @@ namespace Api_Innovatech.Controllers
        // Registrar
        [HttpPost]
 
-       public async Task<IActionResult> RegistrarProducto([FromBody] productos empleado)
+       public async Task<IActionResult> RegistrarProducto([FromBody] productos nombre)
        {
-           if (empleado == null)
+           if (nombre == null)
                return BadRequest();
            if (!ModelState.IsValid)
                return BadRequest(ModelState);
-           var registro = await _producto.RegistrarProducto(empleado);
+           var registro = await _producto.RegistrarProducto(nombre);
            return Created("Producto registrado...", registro);
        }
         [HttpPut]
