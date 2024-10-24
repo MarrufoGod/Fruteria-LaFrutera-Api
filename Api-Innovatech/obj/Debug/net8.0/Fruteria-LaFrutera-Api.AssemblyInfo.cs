@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fruteria-LaFrutera-Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9b82b1ee1dc35f816852bb002dc93e042dac494")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f64e7ce5675c751746f9732e49c591a4f0773d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fruteria-LaFrutera-Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fruteria-LaFrutera-Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
