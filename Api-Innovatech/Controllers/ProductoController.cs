@@ -52,18 +52,18 @@ namespace Api_Innovatech.Controllers
             var registro = await _producto.ActualizarProducto(empleado);
             return Created("Producto Actualizado...", registro);
         }
-        
-        //Eliminar
-        
-        [HttpDelete]
 
-        public async Task<IActionResult> EliminarProducto(String codigo)
+        //Eliminar
+
+        [HttpDelete("{codigo}")]
+        public async Task<IActionResult> EliminarProducto(string codigo)
         {
             var registro = await _producto.EliminarProducto(codigo);
-            return Created("Producto Eliminado ...", registro);
+            return Ok(new { mensaje = "Producto Eliminado ...", registro });
         }
 
-        
+
+
 
 
     }

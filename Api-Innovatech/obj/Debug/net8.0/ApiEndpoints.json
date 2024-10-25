@@ -43,22 +43,6 @@
   },
   {
     "ContainingType": "Api_Innovatech.Controllers.ProductoController",
-    "Method": "EliminarProducto",
-    "RelativePath": "api/Producto",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "codigo",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Innovatech.Controllers.ProductoController",
     "Method": "MostarProducto",
     "RelativePath": "api/Producto/{codigo}",
     "HttpMethod": "GET",
@@ -68,6 +52,22 @@
       {
         "Name": "codigo",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Innovatech.Controllers.ProductoController",
+    "Method": "EliminarProducto",
+    "RelativePath": "api/Producto/{codigo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
