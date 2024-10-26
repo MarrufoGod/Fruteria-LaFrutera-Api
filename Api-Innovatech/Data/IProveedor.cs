@@ -8,6 +8,6 @@ namespace Api_Innovatech.Data
         Task<Proveedor> MostrarProveedor(int codigo);
         Task<bool> EliminarProveedor(string codigo);
         Task<bool> RegistrarProveedor(Proveedor proveedor);
-        Task<bool> ActualizarProveedor(Proveedor proveedor);
+        Task<bool> ActualizarProveedor(int id, Proveedor proveedor);
     }
 }
