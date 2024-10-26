@@ -36,20 +36,20 @@ namespace Api_Innovatech.Controllers
             if (proveedor == null)
                 return BadRequest();
             if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+                return BadRequest(ModelState + "Error de formato");
             var registro = await _proveedor.RegistrarProveedor(proveedor);
             return Created("Proveedor registrado...", registro);
         }
 
         // Actualizar
-        [HttpPut]
-        public async Task<IActionResult> ActualizarProveedor([FromBody] Proveedor proveedor)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> ActualizarProveedor(int id,[FromBody]  Proveedor proveedor)
         {
             if (proveedor == null)
                 return BadRequest();
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-            var registro = await _proveedor.ActualizarProveedor(proveedor);
+            var registro = await _proveedor.ActualizarProveedor(id, proveedor);
             return Created("Proveedor actualizado...", registro);
         }
 

@@ -69,7 +69,7 @@ namespace Api_Innovatech.Data
         }
 
         // Método Actualizar Proveedor
-        public async Task<bool> ActualizarProveedor(Proveedor proveedor)
+        public async Task<bool> ActualizarProveedor(int id, Proveedor proveedor)
         {
             var bd = Conectar();
             String cad_sql = @"UPDATE proveedores SET 
@@ -85,7 +85,7 @@ namespace Api_Innovatech.Data
             int n = await bd.ExecuteAsync(cad_sql,
                 new
                 {
-                    id = proveedor.id,
+                    id = id,
                     name = proveedor.nombre,
                     contacto = proveedor.contacto,
                     direccion = proveedor.direccion,
